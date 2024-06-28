@@ -42,7 +42,10 @@ V--has error-->H[Add Error]
 V--no error-->S[Remove Error]
 H-->E[(Form Errors State)]
 S-->E
+<<<<<<< HEAD
 F--->I
+=======
+>>>>>>> e6cabb0a8f764e749ae19e4cbb1de69ffabf0b51
 E--> I{is Form valid?}
 Z((Submit))
 I--false-->B[Disable Submit]-->Z
@@ -67,11 +70,19 @@ Proje iki zorluk aşamalı,
 - [ ] Main branch üzerinde çalışın
 - [ ] Comitinizi pushlayın: `git push origin main`
 - [ ] Farklı paketler kullanmaya çalışın.
+<<<<<<< HEAD
   - `axios`
   - `react-strap`
   - `toastify`
   - `tailwindcss` (düz css oturduysa)
   - `cypress.io` v.b.
+=======
+	- `axios`
+	- `react-strap`
+	- `toastify`
+	- `tailwindcss` (düz css oturduysa)
+	- `cypress.io` v.b.
+>>>>>>> e6cabb0a8f764e749ae19e4cbb1de69ffabf0b51
 
 ### Görev 2: Iterasyon 1 - (IT1) Proje Planını, UI Tasarımı ve Diğer Tasarım Öğelerini İncelemek
 
